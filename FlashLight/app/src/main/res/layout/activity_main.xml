@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/progress"
+        />
+
+    <ProgressBar
+        android:layout_width="@dimen/chieucao30"
+        android:layout_height="@dimen/chieucao30"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/canhduoi140"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banquyen"
+        android:textColor="#FFF"
+        android:layout_gravity="bottom|center"
+        android:padding="@dimen/padding20"
+        />
+
+</FrameLayout>

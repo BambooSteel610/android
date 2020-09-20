@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itThemBaiHat"
+        android:title="Thêm Bài Hát"
+        />
+
+    <item
+        android:id="@+id/itThemVol"
+        android:title="Thêm Vol"
+        />
+
+    <item
+        android:id="@+id/itThemCaSi"
+        android:title="Thêm Ca Sĩ"
+        />
+
+    <item
+        android:id="@+id/itThemTacGia"
+        android:title="Thêm Tác Giả"
+        />
+</menu>

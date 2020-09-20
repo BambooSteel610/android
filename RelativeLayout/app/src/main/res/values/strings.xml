@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="testview1">Xin chào các bạn !</string>
+    <string name="testview2">Xin chào các bạn lần 2 !</string>
+    <string name="testview3">Xin chào các bạn lần 3 !</string>
+</resources>

@@ -1,0 +1,56 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    >
+
+    <TableRow>
+        <TextView
+            android:id="@+id/cot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cột 1"
+
+            />
+
+        <TextView
+            android:id="@+id/cot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dòng 1 cột 2"
+            />
+
+        <TextView
+            android:id="@+id/cot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dòn 1 Cột 3"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/dong2cot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dòng 2 cột 1"
+            />
+
+        <TextView
+            android:id="@+id/dong2cot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dòng 2 cột 2"
+            />
+
+        <TextView
+            android:id="@+id/dong2cot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dòng 2 cột 3"
+            />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hãy cho mình biết giới tính thật của bạn ?"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgGioiTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rdNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam"
+            android:checked="true"
+            android:button="@drawable/radiostate"
+            />
+
+        <RadioButton
+            android:id="@+id/rdNu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nữ"
+            android:button="@drawable/radiostate"
+            />
+
+        <RadioButton
+            android:id="@+id/rdChuaBiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa biết"
+            android:button="@drawable/radiostate"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDongY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="DongY"
+        android:text="Đồng ý"
+        />
+
+</LinearLayout>

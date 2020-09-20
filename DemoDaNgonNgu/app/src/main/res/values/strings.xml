@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DemoDaNgonNgu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome !</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+</resources>

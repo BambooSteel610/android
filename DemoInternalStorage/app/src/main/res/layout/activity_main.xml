@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edDuLieu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btnGhiDuLieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi dữ liệu"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnDocDuLieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc dữ liệu"
+        android:layout_gravity="center"
+        android:onClick="DocDuLieu"
+        />
+
+    <Button
+        android:id="@+id/btnLuuFileCache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luu Cache"
+        android:layout_gravity="center"
+        android:onClick="LuuFileCache"
+        />
+
+    <Button
+        android:id="@+id/btnDocFileCache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doc File Cache"
+        android:layout_gravity="center"
+        android:onClick="DocFileCache"
+        />
+
+    <Button
+        android:id="@+id/btnGhiFileVaoTheNho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi Dữ Liệu Thẻ Nhớ"
+        android:layout_gravity="center"
+        android:onClick="GhiFileVaoTheNho"
+        />
+
+    <Button
+        android:id="@+id/btnDocFileTuTheNho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc File Thẻ Nhớ"
+        android:layout_gravity="center"
+        android:onClick="DocFileTuTheNho"
+        />
+
+    <Button
+        android:id="@+id/btnLuuHinhAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu Hình Ảnh"
+        android:layout_gravity="center"
+        android:onClick="LuuHinhAnh"
+        />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy File"
+        android:layout_gravity="center"
+        android:onClick="CopyFile"
+        />
+
+</LinearLayout>

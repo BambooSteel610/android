@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">XuatThongBaoDebugAndroid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="thongbao">Xin chào các bạn đây là thông báo khai báo trong Values</string>
+</resources>

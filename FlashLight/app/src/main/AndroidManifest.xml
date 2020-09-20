@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.checongbinh.flashlight" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.Camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_flashlight"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        >
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MenuActivity"
+                  android:label="Menu FlashLight"
+            >
+
+        </activity>
+
+        <activity android:name=".LightActivity"
+                android:label="Light"
+            >
+
+        </activity>
+
+        <activity android:name=".NeonActivity"
+            android:label="Neon"
+            >
+
+        </activity>
+
+        <activity android:name=".WarringActivity"
+            android:label="Warring"
+            >
+
+        </activity>
+
+        <activity android:name=".TrafficActivity"
+            android:label="Traffic"
+            >
+
+        </activity>
+
+        <activity android:name=".PolicActivity"
+            android:screenOrientation="landscape"
+            android:label="Traffic"
+            >
+
+        </activity>
+
+        <activity android:name=".FlashCameraActivity"
+            android:label="FlashCamera"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

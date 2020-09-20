@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#66BB6A</item>
+        <item name="android:colorPrimaryDark">#66BB6A</item>
+    </style>
+</resources>

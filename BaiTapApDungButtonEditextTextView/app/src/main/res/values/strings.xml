@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaiTapApDungButtonEditextTextView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="soa">Nhập vào số a</string>
+    <string name="sob">Nhập vào số b</string>
+</resources>

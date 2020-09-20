@@ -1,0 +1,127 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+  <ImageView
+      android:layout_width="@dimen/chieuronghinh"
+      android:layout_height="@dimen/chieucaohinh"
+      android:src="@drawable/itclass"
+      android:layout_gravity="center"
+      android:layout_marginTop="@dimen/marginTopHinh"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/kichthuochinh"
+        android:text="@string/itclass"
+        android:textColor="#e8bf31"
+        android:paddingTop="@dimen/marginTopHinh"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/canhle20"
+        >
+        <Button
+            android:layout_width="@dimen/chieurong150"
+            android:layout_height="wrap_content"
+            android:background="#3a5a97"
+            android:drawableRight="@drawable/facebook"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="@string/signinwith"
+            android:paddingRight="@dimen/canhle10"
+            android:paddingLeft="@dimen/canhle20"
+            android:textColor="#FFF"
+            android:layout_marginRight="@dimen/canhle20"
+            />
+
+        <Button
+            android:layout_width="@dimen/chieurong150"
+            android:layout_height="wrap_content"
+            android:background="#2daae2"
+            android:drawableRight="@drawable/twitter"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="@string/signinwith"
+            android:paddingRight="@dimen/canhle10"
+            android:paddingLeft="@dimen/canhle20"
+            android:textColor="#FFF"
+            />
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="@dimen/canhle10"
+        android:layout_marginLeft="@dimen/canhle20"
+        android:layout_marginRight="@dimen/canhle20"
+        android:background="#e6e7e9"
+        android:padding="@dimen/canhle10"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="@dimen/canhle10"
+        android:layout_marginLeft="@dimen/canhle20"
+        android:layout_marginRight="@dimen/canhle20"
+        android:layout_marginTop="@dimen/canhle10"
+        android:background="#e6e7e9"
+        android:padding="@dimen/canhle10"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:background="#e8bf31"
+        android:layout_marginLeft="@dimen/canhle20"
+        android:layout_marginRight="@dimen/canhle20"
+        android:layout_marginTop="@dimen/canhle20"
+        android:textSize="@dimen/kichthuocchu20"
+        android:paddingTop="@dimen/canhle20"
+        android:paddingBottom="@dimen/canhle20"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:textSize="@dimen/kichthuocchu20"
+        android:textColor="#0ebe6d"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginTop40"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/canhle10"
+        android:text="@string/forgotpassword"
+        />
+
+</LinearLayout>

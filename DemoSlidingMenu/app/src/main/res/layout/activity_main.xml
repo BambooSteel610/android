@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerlayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="?attr/actionBarSize">
+
+        </android.support.v7.widget.Toolbar>
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header_main"
+        app:itemTextColor="#000"
+        app:theme="@style/Base.Theme.AppCompat.Light"
+        app:insetForeground="@color/colorPrimary"
+        app:itemIconTint="#CCC"
+        app:itemBackground="@color/fab_stroke_top_outer_color"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/menu"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>

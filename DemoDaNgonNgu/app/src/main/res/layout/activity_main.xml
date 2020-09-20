@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:text="@string/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/edHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_alignLeft="@+id/txtWelcome"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:layout_alignStart="@+id/txtWelcome"
+        android:layout_alignRight="@+id/txtWelcome"
+        android:layout_alignEnd="@+id/txtWelcome"
+        />
+
+    <EditText
+        android:id="@+id/edMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_below="@+id/edHoTen"
+        android:layout_alignLeft="@+id/edHoTen"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/edHoTen"
+        android:layout_alignRight="@+id/edHoTen"
+        android:layout_alignEnd="@+id/edHoTen"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edMatKhau"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/macdinh"
+        />
+
+</RelativeLayout>

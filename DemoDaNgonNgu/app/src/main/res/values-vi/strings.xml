@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DemoDaNgonNgu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Xin chào !</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+</resources>

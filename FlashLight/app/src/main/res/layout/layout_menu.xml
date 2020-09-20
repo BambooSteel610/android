@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mdpi"
+    >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/btnLight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/custom_icon_flashlight"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+
+                 />
+
+            <ImageButton
+                android:id="@+id/btnNeon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/custom_icon_neon"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:id="@+id/btnPolic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/custom_icon_polic"
+                android:scaleType="fitCenter"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btnTraffic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/custom_icon_traffic"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btnWarring"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/custom_icon_warring"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:id="@+id/btnFlashLight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/custom_icon_flashlight1"
+                android:scaleType="fitCenter"
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+</RelativeLayout>

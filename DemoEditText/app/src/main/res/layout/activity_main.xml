@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập : "
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ee22"
+        />
+
+    <EditText
+        android:id="@+id/tendangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào mật khẩu"
+        android:textColorHint="@color/accent_material_light"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:phoneNumber="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu : "
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/matkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào mật khẩu"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:password="true"
+
+        />
+</LinearLayout>
